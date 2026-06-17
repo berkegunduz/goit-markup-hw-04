@@ -298,6 +298,24 @@ ul {
   gap: 8px;
   padding-top: 32px;
 }
+.team-social-link {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color:#4d5ae5;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	transition:
+		background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+		color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-social-link:hover ,
+.team-social-link:focus {
+	fill: #404bbf;
+}
+
 
 h3 {
   font-family: "Roboto", sans-serif;
