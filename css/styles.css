@@ -95,9 +95,27 @@ ul {
   padding: 24px 0;
   display: block;
 }
+.header .nav-list .nav-link-current {
+  color: #404BBF;
+}
 
 .header .nav-list a:hover {
   color: #404bbf;
+}
+.nav-link-current {
+  color: #404BBF;
+  position: relative;
+}
+ 
+.nav-link-current::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #404BBF;
 }
 
 .header .contacts {
@@ -142,7 +160,12 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-image:
+  linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+  url("../images/Arkaplan.jpg");
+  background-size: cover;
 }
+
 
 .main-title {
   font-family: "Roboto", sans-serif;
