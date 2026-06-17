@@ -218,6 +218,21 @@ ul {
   width: 250px;
   text-align: left;
 }
+.icon-box {
+  width: 264px;
+  height: 112px;
+  background-color: #F4F4FD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #8E8F99;
+  gap: 8px;
+  border-radius: 4px;
+}
+.anten {
+  background-size:auto;
+  fill: #4d5ae5;
+}
 
 .team {
   background-color: #f4f4fd;
