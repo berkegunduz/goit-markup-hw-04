@@ -96,17 +96,17 @@ ul {
   display: block;
 }
 .header .nav-list .nav-link-current {
-  color: #404BBF;
+  color: #404bbf;
 }
 
 .header .nav-list a:hover {
   color: #404bbf;
 }
 .nav-link-current {
-  color: #404BBF;
+  color: #404bbf;
   position: relative;
 }
- 
+
 .nav-link-current::after {
   content: "";
   position: absolute;
@@ -115,7 +115,7 @@ ul {
   bottom: -1px;
   height: 4px;
   border-radius: 2px;
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 
 .header .contacts {
@@ -161,11 +161,10 @@ ul {
   flex-direction: column;
   justify-content: center;
   background-image:
-  linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-  url("../images/Arkaplan.jpg");
+    linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url("../images/Arkaplan.jpg");
   background-size: cover;
 }
-
 
 .main-title {
   font-family: "Roboto", sans-serif;
@@ -245,16 +244,16 @@ ul {
 .icon-box {
   width: 264px;
   height: 112px;
-  background-color: #F4F4FD;
+  background-color: #f4f4fd;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #8E8F99;
+  border: 1px solid #8e8f99;
   gap: 8px;
   border-radius: 4px;
 }
 .anten {
-  background-size:auto;
+  background-size: auto;
   fill: #4d5ae5;
 }
 
@@ -344,7 +343,6 @@ ul {
 .team-social-link svg {
   fill: #f4f4fd;
 }
-
 
 h3 {
   font-family: "Roboto", sans-serif;
